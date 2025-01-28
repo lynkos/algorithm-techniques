@@ -1,5 +1,11 @@
-# Algorithm Techniques
-Solutions to assignments for COP 4534.
+<div align="center">
+    <h1>Algorithm Techniques</h1>
+    <img alt="Python" src="https://img.shields.io/static/v1?label=Language&style=flat&message=Python&logo=python&color=c7a228&labelColor=393939&logoColor=4f97d1">
+    <img alt="Shell" src="https://img.shields.io/static/v1?label=Shell&style=flat&message=Bash&logo=gnu+bash&color=4EAA25&labelColor=393939&logoColor=4EAA25">
+    <img alt="Code+Editor" src="https://img.shields.io/static/v1?label=Code+Editor&style=flat&message=Visual+Studio+Code&logo=visual+studio+code&color=007acc&labelColor=393939&logoColor=007acc">
+    <br>
+    Solutions (in Python) to assignments for COP 4534.
+</div>
 
 ## Backtracking
 ### 4 Queens Problem
@@ -340,3 +346,26 @@ Algorithm JobScheduling(jobs):
 $n$ = Number of jobs
 * Time Complexity: $O(n \log n)$
 * Space Complexity: $O(n)$
+
+## Repository Structure
+```
+.
+├── Backtracking/
+│   ├── 8_numbers.py
+│   ├── brute_force.py
+│   ├── recursive.py
+│   └── shared.py
+├── Graph Algorithms/
+│   ├── bfs.py
+│   ├── dfs.py
+│   └── shared.py
+├── Homework 2/
+│   ├── islands.py
+│   └── puzzle.py
+├── Homework 3/
+│   ├── dijkstra.py
+│   ├── huffman.py
+│   ├── jobs.py
+│   └── jumps.py
+└── README.md
+```
