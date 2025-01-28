@@ -9,8 +9,8 @@ python brute_force.py
 ```
 
 #### Complexity
-* Time Complexity: O(N^N)
-* Space Complexity: O(N)
+* Time Complexity: $O(N^N)$
+* Space Complexity: $O(N)$
 
 ### 4 Queens Problem using Recursion
 #### Usage
@@ -19,8 +19,8 @@ python recursion.py
 ```
 
 #### Complexity
-* Time Complexity: O(N!)
-* Space Complexity: O(N)
+* Time Complexity: $O(N!)$
+* Space Complexity: $O(N)$
 
 ### Eight Numbers in a Cross-shape board
 #### Usage
@@ -29,8 +29,8 @@ python eight_numbers.py
 ```
 
 #### Complexity
-* Time Complexity: O(N!)
-* Space Complexity: O(N)
+* Time Complexity: $O(N!)$
+* Space Complexity: $O(N)$
 
 ## Graph Algorithms
 ### Depth First Search (DFS)
@@ -134,8 +134,9 @@ Algorithm count_islands(map):
 ```
 
 #### Complexity
-* Time Complexity: O(M * N)
-* Space Complexity: O(M * N)
+$M$ = Number of rows, $N$ = Number of columns
+* Time Complexity: $O(M * N)$
+* Space Complexity: $O(M * N)$
 
 ### 8-Puzzle Games
 #### Usage
@@ -181,9 +182,9 @@ Algorithm AStar(start, goal):
 ```
 
 #### Complexity
-b = Branching factor, d = Number of nodes
-* Time Complexity: O(b^d)
-* Space Complexity: O(b^d)
+$b$ = Branching factor, $d$ = Number of nodes
+* Time Complexity: $O(b^d)$
+* Space Complexity: $O(b^d)$
 
 ## Homework 3
 ### Dijkstra's Algorithm
@@ -231,9 +232,9 @@ Algorithm Dijkstra(graph, source, target):
 ```
 
 #### Complexity
-V = Vertex, E = Edge
-* Time Complexity: O((V + E) logV)
-* Space Complexity: O(V + E)
+$V$ = Vertex, $E$ = Edge
+* Time Complexity: $O((V + E) \log V)$
+* Space Complexity: $O(V + E)$
 
 ### Huffman Coding
 #### Usage
@@ -304,9 +305,9 @@ Algorithm MinJumps(max_jumps):
 ```
 
 #### Complexity
-n = Array length
-* Time Complexity: O(n)
-* Space Complexity: O(1)
+$n$ = Array length
+* Time Complexity: $O(n)$
+* Space Complexity: $O(1)$
 
 ### Job Scheduling with Deadlines
 #### Usage
@@ -336,6 +337,6 @@ Algorithm JobScheduling(jobs):
 ```
 
 #### Complexity
-n = Number of jobs
-* Time Complexity: O(n log n)
-* Space Complexity: O(n)
+$n$ = Number of jobs
+* Time Complexity: $O(n \log n)$
+* Space Complexity: $O(n)$
